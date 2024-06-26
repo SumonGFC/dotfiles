@@ -2,11 +2,14 @@ require "user.options"
 require "user.keymaps"
 require "user.lazy"     -- plugins
 
-vim.cmd "colorscheme detailed"
+-- vim.cmd "colorscheme darkplus"
+vim.cmd "colorscheme vscode"
 
 require "user.lsp"
+require "user.lsp.settings"     -- empty for now
 require "user.telescope-configs"
 require "user.treesitter-configs"
+require 'user.gitsigns-config'
 
 require "user.indents"
 

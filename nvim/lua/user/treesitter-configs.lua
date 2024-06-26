@@ -5,7 +5,7 @@ configs.setup {
         sync_install = false,   -- install parsers synchronously
         ignore_install = {""},  -- list of parsers to ignore_install
         highlight = {
-                enable = false,
+                enable = true,
                 disable = {""},
                 additional_vim_regex_highlighting = true,
         },

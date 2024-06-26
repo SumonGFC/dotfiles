@@ -69,5 +69,6 @@ keymap("n", "<leader>ff", "<cmd>lua require'telescope.builtin'.find_files(requir
 keymap("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", opts)
 keymap("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts)
 keymap("n", "<leader>fs", "<cmd>Telescope lsp_document_symbols<cr>", opts)
+keymap("n", "<leader>fo", "<cmd>Telescope oldfiles<cr>", opts)
 
 keymap("n", "<leader>hl", "<cmd>TSBufToggle highlight<cr>", opts)
