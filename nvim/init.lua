@@ -7,10 +7,14 @@ vim.cmd "colorscheme vscode"
 
 require "user.lsp"
 require "user.lsp.settings"     -- empty for now
+
+-- plugin configs
 require "user.telescope-configs"
 require "user.treesitter-configs"
 require 'user.gitsigns-config'
+require 'user.ibl-config'
 
+-- custom indent spacing for filetypes
 require "user.indents"
 
 -- :autocmd Filetype html setlocal ts=2 sw=2 expandtab
