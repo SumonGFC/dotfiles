@@ -13,6 +13,7 @@ require "user.telescope-configs"
 require "user.treesitter-configs"
 require 'user.gitsigns-config'
 require 'user.ibl-config'
+require 'user.toggle-term-config'
 
 -- custom indent spacing for filetypes
 require "user.indents"
